@@ -1,0 +1,117 @@
+/***************************************TAG SELECTORS**************************/
+body {
+  background-color: #F7FBFC;
+  font-family: 'Baloo 2', cursive;
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Marck Script', cursive;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+a {
+  color: #769FCD;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 0 10%;
+}
+
+a:hover {
+  color: white;
+}
+
+/************************************CLASS SELECTORS***************************/
+/*INDEX*/
+.head-div {
+  background-color: #B9D7EA;
+  width: 100%;
+  position: fixed;
+}
+
+.cloud1 {
+  position: absolute;
+  animation: 15s linear 0s infinite alternate clouud1;
+  width: 15%;
+}
+
+@keyframes clouud1 {
+  from {
+    margin-left: -30%;
+  }
+
+  to {
+    margin-left: 50%;
+  }
+}
+.cloud2 {
+  position: absolute;
+  top: 450px;
+  animation: 15s linear 0s infinite alternate-reverse clouud2;
+  width: 15%;
+}
+
+@keyframes clouud2 {
+  from {
+    margin-left: -50%;
+  }
+
+  to {
+    margin-left: 15%;
+  }
+}
+
+.top-div {
+  background-color: #D6E6F2;
+  line-height: 1.5;
+  padding-top: 5%;
+  padding-bottom: 25px;
+}
+
+.middle-div {
+  display: inline-block;
+  line-height: 2;
+  width: 50%;
+}
+
+.foot-div {
+  background-color: #769FCD;
+  clear: both;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+/*The Dogs*/
+.photos {
+  line-height: 2;
+}
+
+.img1 {
+  padding-top: 60px;
+  width: 80%;
+}
+
+.img {
+  display: inline-block;
+  width: 30%;
+}
+
+.video {
+  padding: 0 10% 20px;
+  float: left;
+  width: 30%;
+}
+
+/*Contact*/
+.contact-div {
+  line-height: 2;
+  padding-top: 10px;
+}
+
+.textmsg {}
